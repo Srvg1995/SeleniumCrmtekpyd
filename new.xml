@@ -1,0 +1,13 @@
+<suite thread-count="1" parallel="tests" name="Suite">
+	<parameter name="browser" value="chrome" />
+	<parameter name="url" value="http://localhost:8888" />
+	<parameter name="username" value="admin" />
+	<parameter name="password" value="admin" />
+	<test thread-count="1" parallel="tests" name="Test">
+		<classes>
+			<class name="practice.datadriventesting.CreateOrgTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
