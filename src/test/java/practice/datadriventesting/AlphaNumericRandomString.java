@@ -9,12 +9,12 @@ public class AlphaNumericRandomString {
 		// Create String Buffer size of AlphaNumericString
 		StringBuilder sb = new StringBuilder(n);
 		for (int i = 0; i < n; i++)
-		// generate a random between o to alphanumeric
+			// generate a random between o to alphanumeric
 		{
 			int index = (int) (AlphaNumericString.length() * Math.random());
 			// add character one by one of sb
 			sb.append(AlphaNumericString.charAt(index));
-			
+
 		}
 		System.out.println(sb);
 	}
